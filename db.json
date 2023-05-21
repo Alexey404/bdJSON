@@ -40,32 +40,32 @@
   "comments": [
     {
       "id": 1,
-      "idPost": 2,
+      "idPost": 1,
       "author": { "id": 1, "name": "Олег", "email": "oleg@gmail.com" },
       "content": "Спасибо за работу"
     },
     {
       "id": 2,
-      "idPost": 3,
+      "idPost": 2,
       "author": { "name": "Андрей", "id": 2, "email": "andrey@gmail.com" },
       "content": "Странно"
     },
     {
       "id": 3,
-      "idPost": 4,
+      "idPost": 1,
       "author": { "name": "Андрей", "id": 2, "email": "andrey@gmail.com" },
       "content": "Обращайся"
     },
     {
       "id": 4,
-      "idPost": 3,
+      "idPost": 2,
       "author": { "name": "Андрей", "id": 2, "email": "andrey@gmail.com" },
       "content": "Как то непонятно"
     },
     {
       "id": 5,
-      "idPost": 4,
-      "author": { "name": "Андрей", "id": 2, "email": "andrey@gmail.com" },
+      "idPost": 3,
+      "author": { "id": 1, "name": "Олег", "email": "oleg@gmail.com" },
       "content": "Молодец"
     }
   ],
