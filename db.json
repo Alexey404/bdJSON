@@ -67,6 +67,7 @@
   ],
   "profile": [
     { "id": 1, "name": "Олег", "email": "oleg@gmail.com" },
-    { "id": 2, "name": "Андрей", "email": "andrey@gmail.com" }
+    { "id": 2, "name": "Андрей", "email": "andrey@gmail.com" },
+    { "id": 2, "name": "Алексей", "email": "volik.aiii@gmail.com" }
   ]
 }
