@@ -66,8 +66,23 @@
     }
   ],
   "profile": [
-    { "id": 1, "name": "Олег", "email": "oleg@gmail.com" },
-    { "id": 2, "name": "Андрей", "email": "andrey@gmail.com" },
-    { "id": 3, "name": "Алексей", "email": "volik.aiii@gmail.com" }
+    {
+      "id": 1,
+      "name": "Олег",
+      "email": "oleg@gmail.com",
+      "password": "4982AFfsdi"
+    },
+    {
+      "id": 2,
+      "name": "Андрей",
+      "email": "andrey@gmail.com",
+      "password": "4982GFfsdi"
+    },
+    {
+      "id": 3,
+      "name": "Алексей",
+      "email": "volik.aiii@gmail.com",
+      "password": "4982AFfOfi"
+    }
   ]
 }
