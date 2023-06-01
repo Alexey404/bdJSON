@@ -2,7 +2,13 @@
   "posts": [
     {
       "id": 1,
-      "author": { "id": 2, "name": "Андрей", "email": "andrey@gmail.com" },
+      "author": {
+        "id": 2,
+        "name": "Андрей",
+        "email": "andrey@gmail.com",
+        "password": "4982GFfsdi",
+        "img": "https://meloman.ru/media/upload/photos/%D0%94%D1%83%D0%B1%D0%BE%D0%B2_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82_900%D1%85600.820x350.jpg"
+      },
       "authorId": 2,
       "heading": "Как мы используем RTK Query в React-приложениях",
       "content": "С момента своего первого релиза в 2015 году Redux использовался и продолжает использоваться на множестве клиентских приложений. Несмотря на все достоинства, которые предоставляет данное решение (предсказуемое управление состоянием, удобная отладка с помощью Redux DevTools и др.), некоторые разработчики сетуют на излишнее количество “шаблонного кода” при реализации даже самого просто функционала и предпочитают альтернативные инструменты для управления состоянием в клиентских приложениях.",
@@ -10,7 +16,13 @@
     },
     {
       "id": 2,
-      "author": { "id": 1, "name": "Олег", "email": "oleg@gmail.com" },
+      "author": {
+        "id": 1,
+        "name": "Олег",
+        "email": "oleg@gmail.com",
+        "password": "4982AFfsdi",
+        "img": "https://www.mariinsky.ru/images/cms/data/avatar_guests/senchenko_oleg.jpg"
+      },
       "authorId": 1,
       "heading": "Мотивация использования Redux",
       "content": "Механизм локального хранилища компонента, который поставляется вместе с базовой библиотекой (React) неудобен тем, что такое хранилище изолировано. К примеру, если вы хотите, чтобы разные независимые компоненты реагировали на какое-либо событие, вам придётся либо передавать локальное состояние в виде пропсов дочерним компонентам, либо поднимать его вверх до ближайшего родительского компонента. В обоих случаях делать это не удобно. Код становится более грязным, трудночитаемым, а компоненты зависимыми от их вложенности. Redux снимает эту проблему так как всё состояние доступно всем компонентом без особых трудностей. Redux является универсальным средством разработки и может быть использован в связке с различными библиотеками и фреймворками. В этой же статье будет рассматривается использование Redux в React приложениях.",
@@ -18,7 +30,13 @@
     },
     {
       "id": 3,
-      "author": { "id": 2, "name": "Андрей", "email": "andrey@gmail.com" },
+      "author": {
+        "id": 2,
+        "name": "Андрей",
+        "email": "andrey@gmail.com",
+        "password": "4982GFfsdi",
+        "img": "https://meloman.ru/media/upload/photos/%D0%94%D1%83%D0%B1%D0%BE%D0%B2_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82_900%D1%85600.820x350.jpg"
+      },
       "authorId": 2,
       "heading": "Разбираемся в redux-saga: От генераторов действий к сагам",
       "content": "Любой redux разработчик расскажет вам, что одной из самых тяжелейших частей разработки приложений являются асинхронные вызовы — как вы будете обрабатывать реквесты, таймауты и другие коллбэки без усложнения redux действий(actions) и редьюсеров(reducers).",
@@ -26,7 +44,13 @@
     },
     {
       "id": 4,
-      "author": { "id": 1, "name": "Олег", "email": "oleg@gmail.com" },
+      "author": {
+        "id": 1,
+        "name": "Олег",
+        "email": "oleg@gmail.com",
+        "password": "4982AFfsdi",
+        "img": "https://www.mariinsky.ru/images/cms/data/avatar_guests/senchenko_oleg.jpg"
+      },
       "authorId": 1,
       "heading": "Достаточно знать несколько типов?",
       "content": "Типы — это основная концепция, связанная с TypeScript и то, ради чего этот язык задумывался. Если открыть цели команды TypeScript, то там явно написано: они разрабатывают статическую типовую систему для JavaScript.Люди очень часто говорят, что TypeScript — это небольшая надстройка, superset над JavaScript, который добавляет типы. И что достаточно изучить несколько типов, чтобы начать писать на TypeScript и автоматически получать хороший код. ",
@@ -37,31 +61,61 @@
     {
       "id": 1,
       "idPost": 1,
-      "author": { "id": 1, "name": "Олег", "email": "oleg@gmail.com" },
+      "author": {
+        "id": 1,
+        "name": "Олег",
+        "email": "oleg@gmail.com",
+        "password": "4982AFfsdi",
+        "img": "https://www.mariinsky.ru/images/cms/data/avatar_guests/senchenko_oleg.jpg"
+      },
       "content": "Спасибо за работу"
     },
     {
       "id": 2,
       "idPost": 2,
-      "author": { "name": "Андрей", "id": 2, "email": "andrey@gmail.com" },
+      "author": {
+        "id": 2,
+        "name": "Андрей",
+        "email": "andrey@gmail.com",
+        "password": "4982GFfsdi",
+        "img": "https://meloman.ru/media/upload/photos/%D0%94%D1%83%D0%B1%D0%BE%D0%B2_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82_900%D1%85600.820x350.jpg"
+      },
       "content": "Странно"
     },
     {
       "id": 3,
       "idPost": 1,
-      "author": { "name": "Андрей", "id": 2, "email": "andrey@gmail.com" },
+      "author": {
+        "id": 2,
+        "name": "Андрей",
+        "email": "andrey@gmail.com",
+        "password": "4982GFfsdi",
+        "img": "https://meloman.ru/media/upload/photos/%D0%94%D1%83%D0%B1%D0%BE%D0%B2_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82_900%D1%85600.820x350.jpg"
+      },
       "content": "Обращайся"
     },
     {
       "id": 4,
       "idPost": 2,
-      "author": { "name": "Андрей", "id": 2, "email": "andrey@gmail.com" },
+      "author": {
+        "id": 2,
+        "name": "Андрей",
+        "email": "andrey@gmail.com",
+        "password": "4982GFfsdi",
+        "img": "https://meloman.ru/media/upload/photos/%D0%94%D1%83%D0%B1%D0%BE%D0%B2_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82_900%D1%85600.820x350.jpg"
+      },
       "content": "Как то непонятно"
     },
     {
       "id": 5,
       "idPost": 3,
-      "author": { "id": 1, "name": "Олег", "email": "oleg@gmail.com" },
+      "author": {
+        "id": 1,
+        "name": "Олег",
+        "email": "oleg@gmail.com",
+        "password": "4982AFfsdi",
+        "img": "https://www.mariinsky.ru/images/cms/data/avatar_guests/senchenko_oleg.jpg"
+      },
       "content": "Молодец"
     }
   ],
@@ -70,19 +124,22 @@
       "id": 1,
       "name": "Олег",
       "email": "oleg@gmail.com",
-      "password": "4982AFfsdi"
+      "password": "4982AFfsdi",
+      "img": "https://www.mariinsky.ru/images/cms/data/avatar_guests/senchenko_oleg.jpg"
     },
     {
       "id": 2,
       "name": "Андрей",
       "email": "andrey@gmail.com",
-      "password": "4982GFfsdi"
+      "password": "4982GFfsdi",
+      "img": "https://meloman.ru/media/upload/photos/%D0%94%D1%83%D0%B1%D0%BE%D0%B2_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82_900%D1%85600.820x350.jpg"
     },
     {
       "id": 3,
       "name": "Алексей",
       "email": "volik.aiii@gmail.com",
-      "password": "4982AFfOfi"
+      "password": "4982AFfOfi",
+      "img": "https://avatars.githubusercontent.com/u/82263481?v=4"
     }
   ]
 }
