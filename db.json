@@ -6,7 +6,6 @@
         "id": 2,
         "name": "Андрей",
         "email": "andrey@gmail.com",
-        "password": "4982GFfsdi",
         "img": "https://meloman.ru/media/upload/photos/%D0%94%D1%83%D0%B1%D0%BE%D0%B2_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82_900%D1%85600.820x350.jpg"
       },
       "authorId": 2,
@@ -20,7 +19,6 @@
         "id": 1,
         "name": "Олег",
         "email": "oleg@gmail.com",
-        "password": "4982AFfsdi",
         "img": "https://www.mariinsky.ru/images/cms/data/avatar_guests/senchenko_oleg.jpg"
       },
       "authorId": 1,
@@ -34,7 +32,6 @@
         "id": 2,
         "name": "Андрей",
         "email": "andrey@gmail.com",
-        "password": "4982GFfsdi",
         "img": "https://meloman.ru/media/upload/photos/%D0%94%D1%83%D0%B1%D0%BE%D0%B2_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82_900%D1%85600.820x350.jpg"
       },
       "authorId": 2,
@@ -48,12 +45,24 @@
         "id": 1,
         "name": "Олег",
         "email": "oleg@gmail.com",
-        "password": "4982AFfsdi",
         "img": "https://www.mariinsky.ru/images/cms/data/avatar_guests/senchenko_oleg.jpg"
       },
       "authorId": 1,
       "heading": "Достаточно знать несколько типов?",
       "content": "Типы — это основная концепция, связанная с TypeScript и то, ради чего этот язык задумывался. Если открыть цели команды TypeScript, то там явно написано: они разрабатывают статическую типовую систему для JavaScript.Люди очень часто говорят, что TypeScript — это небольшая надстройка, superset над JavaScript, который добавляет типы. И что достаточно изучить несколько типов, чтобы начать писать на TypeScript и автоматически получать хороший код. ",
+      "comments": []
+    },
+    {
+      "id": 5,
+      "author": {
+        "id": 3,
+        "name": "Алексей",
+        "email": "volik.aiii@gmail.com",
+        "img": "https://avatars.githubusercontent.com/u/82263481?v=4"
+      },
+      "authorId": 3,
+      "heading": "Хочу поделиться с вами заметками о Next.js (надеюсь, кому-нибудь пригодится).",
+      "content": "Next.js — это основанный на React фреймворк, предназначенный для разработки веб-приложений, обладающих функционалом, выходящим за рамки SPA, т.е. так называемых одностраничных приложений.Как известно, основным недостатком SPA являются проблемы с индексацией страниц таких приложений поисковыми роботами, что негативно влияет на SEO.Впрочем, по моим личным наблюдениям, в последнее время ситуация стала меняться к лучшему, по крайней мере, страницы моего небольшого SPA-PWA-приложения нормально индексируются.Кроме того, существуют специальные инструменты, такие как react-snap, позволяющие превратить React-SPA в многостраничник путем предварительного рендеринга приложения в статическую разметку. Метаинформацию же можно встраивать в head с помощью таких утилит, как react-helmet. Однако Next.js существенно упрощает процесс разработки многостраничных и гибридных приложений (последнего невозможно добиться с помощью того же react-snap). Он также предоставляет множество других интересных возможностей.",
       "comments": []
     }
   ],
@@ -65,7 +74,6 @@
         "id": 1,
         "name": "Олег",
         "email": "oleg@gmail.com",
-        "password": "4982AFfsdi",
         "img": "https://www.mariinsky.ru/images/cms/data/avatar_guests/senchenko_oleg.jpg"
       },
       "content": "Спасибо за работу"
@@ -77,7 +85,6 @@
         "id": 2,
         "name": "Андрей",
         "email": "andrey@gmail.com",
-        "password": "4982GFfsdi",
         "img": "https://meloman.ru/media/upload/photos/%D0%94%D1%83%D0%B1%D0%BE%D0%B2_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82_900%D1%85600.820x350.jpg"
       },
       "content": "Странно"
@@ -89,7 +96,6 @@
         "id": 2,
         "name": "Андрей",
         "email": "andrey@gmail.com",
-        "password": "4982GFfsdi",
         "img": "https://meloman.ru/media/upload/photos/%D0%94%D1%83%D0%B1%D0%BE%D0%B2_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82_900%D1%85600.820x350.jpg"
       },
       "content": "Обращайся"
@@ -101,7 +107,6 @@
         "id": 2,
         "name": "Андрей",
         "email": "andrey@gmail.com",
-        "password": "4982GFfsdi",
         "img": "https://meloman.ru/media/upload/photos/%D0%94%D1%83%D0%B1%D0%BE%D0%B2_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82_900%D1%85600.820x350.jpg"
       },
       "content": "Как то непонятно"
@@ -113,7 +118,6 @@
         "id": 1,
         "name": "Олег",
         "email": "oleg@gmail.com",
-        "password": "4982AFfsdi",
         "img": "https://www.mariinsky.ru/images/cms/data/avatar_guests/senchenko_oleg.jpg"
       },
       "content": "Молодец"
