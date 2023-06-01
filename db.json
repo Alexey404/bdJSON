@@ -29,19 +29,6 @@
     {
       "id": 3,
       "author": {
-        "id": 2,
-        "name": "Андрей",
-        "email": "andrey@gmail.com",
-        "img": "https://meloman.ru/media/upload/photos/%D0%94%D1%83%D0%B1%D0%BE%D0%B2_%D0%B3%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82_900%D1%85600.820x350.jpg"
-      },
-      "authorId": 2,
-      "heading": "Разбираемся в redux-saga: От генераторов действий к сагам",
-      "content": "Любой redux разработчик расскажет вам, что одной из самых тяжелейших частей разработки приложений являются асинхронные вызовы — как вы будете обрабатывать реквесты, таймауты и другие коллбэки без усложнения redux действий(actions) и редьюсеров(reducers).",
-      "comments": []
-    },
-    {
-      "id": 4,
-      "author": {
         "id": 1,
         "name": "Олег",
         "email": "oleg@gmail.com",
@@ -53,7 +40,7 @@
       "comments": []
     },
     {
-      "id": 5,
+      "id": 4,
       "author": {
         "id": 3,
         "name": "Алексей",
